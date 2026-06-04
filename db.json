@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "kevin@gmail.com",
+      "password": "123456",
+      "rol": "admin"
+    },{
+        "id": "2",
+        "email": "kevin2@gmail.com",
+        "password": "123456",
+        "rol": "user"
+    },{
+        "id": "3",
+        "email": "kevin3@gmail.com",
+        "password": "123456",
+        "rol": "user"
+    }
+  ],
+
+  "products": [
+    {
+      "id": "123",
+      "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRUl4ZDgB0aAaD26sLNmPumSABj9CtNpuO9w&s",
+      "name": "Laptop",
+      "price": 2500
+    },
+    {
+      "id": "234",
+      "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5s5_guiZNgzn9hQjwj40MLiCI49xuayPpA&s",
+      "name": "Mouse",
+      "price": 80
+    }
+  ],
+  "roles":[
+    {
+        "nombre":"admin",
+        "permisos":[
+            "crear",
+            "leer",
+            "actualizar",
+            "borrar"
+        
+        ]
+    },
+    {
+        "nombre":"user",
+        "permisos":[
+            "leer"
+        ]
+    }
+    
+  ]
+}
