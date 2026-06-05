@@ -5,50 +5,75 @@
       "email": "kevin@gmail.com",
       "password": "123456",
       "rol": "admin"
-    },{
-        "id": "2",
-        "email": "kevin2@gmail.com",
-        "password": "123456",
-        "rol": "user"
-    },{
-        "id": "3",
-        "email": "kevin3@gmail.com",
-        "password": "123456",
-        "rol": "user"
-    }
-  ],
-
-  "products": [
-    {
-      "id": "123",
-      "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRUl4ZDgB0aAaD26sLNmPumSABj9CtNpuO9w&s",
-      "name": "Laptop",
-      "price": 2500
     },
     {
-      "id": "234",
-      "img" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW5s5_guiZNgzn9hQjwj40MLiCI49xuayPpA&s",
-      "name": "Mouse",
-      "price": 80
-    }
-  ],
-  "roles":[
-    {
-        "nombre":"admin",
-        "permisos":[
-            "crear",
-            "leer",
-            "actualizar",
-            "borrar"
-        
-        ]
+      "id": "2",
+      "email": "kevin2@gmail.com",
+      "password": "123456",
+      "rol": "user"
     },
     {
-        "nombre":"user",
-        "permisos":[
-            "leer"
-        ]
+      "id": "3",
+      "email": "kevin3@gmail.com",
+      "password": "123456",
+      "rol": "user"
     }
-    
-  ]
+  ],
+  "tasks": [
+    {
+      "titulo": "tarea 1",
+      "descripcion": "prueba de guardado",
+      "fechaLimite": "2026-12-12",
+      "prioridad": "Alta",
+      "id": "VrXXm69CqNM"
+    },
+    {
+      "titulo": "tarea 2",
+      "descripcion": "prueba de direccion",
+      "fechaLimite": "2026-12-12",
+      "prioridad": "Baja",
+      "id": "w4Q7pRaaX64"
+    },
+    {
+      "titulo": "tarea 3",
+      "descripcion": "muestra a stevel",
+      "fechaLimite": "2026-12-12",
+      "prioridad": "Baja",
+      "id": "8D2rqLkUWKw"
+    },
+    {
+      "titulo": "tarea 4",
+      "descripcion": "prueba direccion",
+      "fechaLimite": "2026-12-12",
+      "prioridad": "Baja",
+      "id": "1zch8LXL3_4"
+    },
+    {
+      "titulo": "tarea 5",
+      "descripcion": "visual",
+      "fechaLimite": "2026-12-12",
+      "prioridad": "Baja",
+      "id": "KbUoogIidco"
+    }
+  ],
+  "roles": [
+    {
+      "nombre": "admin",
+      "permisos": [
+        "crear",
+        "leer",
+        "actualizar",
+        "borrar"
+      ],
+      "id": "Z8GftoFO3ss"
+    },
+    {
+      "nombre": "user",
+      "permisos": [
+        "leer"
+      ],
+      "id": "Qk1FqxF6ZyE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

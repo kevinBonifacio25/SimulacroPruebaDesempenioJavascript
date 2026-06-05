@@ -16,7 +16,7 @@ export function renderCreateTask() {
             Título
           </label>
 
-          <input
+          <input id = "tituloTarea"
             type="text"
             class="w-full border rounded-lg p-3">
         </div>
@@ -27,6 +27,7 @@ export function renderCreateTask() {
           </label>
 
           <textarea
+            id = "descripcionTask"
             rows="4"
             class="w-full border rounded-lg p-3"></textarea>
         </div>
@@ -37,6 +38,7 @@ export function renderCreateTask() {
           </label>
 
           <input
+            id = "fechaLimiteTask"
             type="date"
             class="w-full border rounded-lg p-3">
         </div>
@@ -46,7 +48,7 @@ export function renderCreateTask() {
             Prioridad
           </label>
 
-          <select class="w-full border rounded-lg p-3">
+          <select id="prioridadTask" class="w-full border rounded-lg p-3">
             <option>Baja</option>
             <option>Media</option>
             <option>Alta</option>
@@ -61,7 +63,7 @@ export function renderCreateTask() {
             Guardar
           </button>
 
-          <button
+          <button id ="btnCancelar"
             type="button"
             class="flex-1 bg-gray-300 hover:bg-gray-400 py-3 rounded-lg">
             Cancelar

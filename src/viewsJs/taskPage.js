@@ -9,7 +9,7 @@ export function renderTasksPage() {
           Mis tareas
         </h1>
 
-        <button
+        <button id="agregarTarea"
           class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg">
           + Nueva tarea
         </button>
@@ -31,7 +31,7 @@ export function renderTasksPage() {
               <th class="text-left p-4">Título</th>
               <th class="text-left p-4">Estado</th>
               <th class="text-left p-4">Fecha</th>
-              <th class="text-center p-4">Acciones</th>
+              <th class="text-left p-4">Prioridad</th>
             </tr>
           </thead>
 

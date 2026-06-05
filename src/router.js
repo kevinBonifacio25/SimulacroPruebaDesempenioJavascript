@@ -5,6 +5,10 @@ import {initLogin} from './controllerJs/loginController.js';
 import {renderCreateTask} from './viewsJs/createTask.js';
 import {renderTaskDetails} from './viewsJs/taskDetails.js';
 import {renderTasksPage} from './viewsJs/taskPage.js';
+import {initTaskPage} from './controllerJs/taskPageController.js';
+import {initCrearTask} from './controllerJs/crearTareaController.js';
+
+
 
 
 
@@ -20,7 +24,7 @@ const routes = {
     },
     "/crear":{
         view: renderCreateTask,
-        controller: null,
+        controller: initCrearTask,
     },
     "/detalles":{
         view: renderTaskDetails,
@@ -28,7 +32,7 @@ const routes = {
     },
     "/listar":{
         view: renderTasksPage,
-        controller: null,
+        controller: initTaskPage,
     },
 }
 
