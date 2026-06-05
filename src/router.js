@@ -21,6 +21,7 @@ const routes = {
     "/dashboard":{
         view: renderDashboard,
         controller: null,
+        
     },
     "/crear":{
         view: renderCreateTask,
